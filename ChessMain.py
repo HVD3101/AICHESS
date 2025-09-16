@@ -176,7 +176,7 @@ def animateMove(move, screen, board, clock):
 
         screen.blit(IMAGES[move.pieceMoved], p.Rect(c * SQ_SIZE, r * SQ_SIZE, SQ_SIZE, SQ_SIZE))
         p.display.flip()
-
+        clock.tick(150)
 
 
 def drawText(screen, text):
